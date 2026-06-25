@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flask + Express</title>
+</head>
+
+<body>
+
+    <h2>Student Form</h2>
+
+    <form action="/submit" method="POST">
+
+        <label>Name</label><br>
+        <input type="text" name="name" required>
+
+        <br><br>
+
+        <button type="submit">
+            Submit
+        </button>
+
+    </form>
+
+    <% if(result){ %>
+
+        <h3><%= result %></h3>
+
+    <% } %>
+
+</body>
+
+</html>
