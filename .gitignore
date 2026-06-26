@@ -1,6 +1,14 @@
-node_modules/
-.vscode/
-.venv/
+# Python
+Backen/flaskp/venv/
+Backen/.venv/
 __pycache__/
 *.pyc
-.env
+
+# Node.js
+FrontEnd/node_modules/
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.pem
